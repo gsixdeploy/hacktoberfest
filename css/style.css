@@ -24,7 +24,6 @@ body{
 .topleft {
     position: absolute;
     top: 0;
-    left: 16px;
     background: url(../images/Hacktoberfest-Details2-07.png) no-repeat;
     height: 300px;
     width: 300px;
