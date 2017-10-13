@@ -1,0 +1,62 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+
+body{
+    background: red; /* For browsers that do not support gradients */
+  background: -webkit-radial-gradient(circle, #3241a6 0, #202a6b 200%); /* Safari */
+  background: -o-radial-gradient(circle, #3241a6 0, #202a6b 200%); /* Opera 11.6 to 12.0 */
+  background: -moz-radial-gradient(circle, #3241a6 0, #202a6b 200%); /* Firefox 3.6 to 15 */
+  background: radial-gradient(circle, #3241a6 0, #202a6b 200%); /* Standard syntax */
+}
+.bgimg {
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    color: white;
+    font-family: Montserrat,sans-serif;
+    font-size: 25px;
+}
+
+.topleft {
+    position: absolute;
+    top: 0;
+    left: 16px;
+    background: url(../images/Hacktoberfest-Details2-07.png) no-repeat;
+    height: 300px;
+    width: 300px;
+    background-size: 100%;
+    -ms-transform: rotate(90deg); /* IE 9 */
+    -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+    transform: rotate(90deg);
+    background-position: bottom;
+}
+
+.bottomright {
+     position: absolute;
+    bottom: 0;
+    right: 0px;
+    background: url(../images/Hacktoberfest-Details2-08.png) no-repeat;
+    height: 300px;
+    width: 300px;
+    background-size: 100%;
+    background-position: bottom;
+
+
+}
+
+.middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+hr {
+    margin: auto;
+    width: 40%;
+}
