@@ -2,29 +2,456 @@
 <html>
 <head>
   <title>Hacktoberfest | Macedonia</title>
-  <link rel="stylesheet" type="text/css" href="css/style.css" />
 
   <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png">
+
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+
   
 </head>
 <body>
 
+<nav class="navbar navbar-custom navbar-fixed-top colorWhite">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" >
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <p class="navbar-brand colorWhite hidden-sm hidden-xs">Local Organizers</p>
+        <a class="navbar-brand colorWhite" href="https://adevait.com/" target="_blank"><img alt="Adeva" src="images/logo.svg" width="70px;" /></a>
+        <a class="navbar-brand colorWhite" href="http://gsix.me/" target="_blank"><img style="margin-top: -3px;" alt="GSIX" src="images/logo_gsix_belo-01.png" width="70px;" /></a>
+    </div>
 
-<div class="bgimg">
-  <div class="topleft">
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+    
+      
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#celebration" id="celebrationlink" class="scroll">About</a></li>
+        <li><a href="#agenda" id="agendalink" class="scroll">Agenda</a></li>
+        <li><a href="#speakers" id="speakerslink" class="scroll">Speakers</a></li>
+        <li><a href="#ticket" id="ticketlink" class="scroll">Get a Ticket</a></li>
+        <li><a href="#where" id="wherelink" class="scroll">Where</a></li>
+        <li><a href="https://www.facebook.com/groups/710794052465203/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
 
   </div>
-  <div class="middle">
-    <h1>COMING SOON</h1>
-    <img src="images/HacktoberfestMacedonia-logo-01.png" width="80%" />
+</nav>
+
+
+<div class="container-fluid height100">
+  <div class="row height100">
+
+    <div class="bgimg col-md-12">
+      <div class="topleft">
+
+      </div>
+      <div class="middle">
+        <img src="images/HacktoberfestMacedonia-logo-01.png" width="80%" />
+        <h3>OCTOBER 26th 2017</h3>
+
+        <p><button data-link="celebrationlink">Learn More</button><button data-link="ticketlink" class="join">Join Us</button></p>
+      </div>
+
+      <div class="bottomright">
+      </div>
+    </div>
+    <p class="quote colorWhite">Hacktoberfest is a month-long celebration of open source software in partnership between <a href="https://www.digitalocean.com/" target="_blank" class="colorWhite"><strong>Digital Ocean</strong></a> and <a class="colorWhite" href="https://github.com/" target="_blank"><strong>GitHub</strong></a></p>
   </div>
 
-  <div class="bottomright">
+
+
+</div>
+
+<div class="container">
+  <div class="row" id="celebration">
+    <div class="col-md-12">  
+      <h2>Hacktober Celebration</h2>
+
+      <p><a href="https://hacktoberfest.digitalocean.com/" target="_blank">Hacktoberfest</a> is a month-long celebration of open source software and is open for everyone to participate!</p>
+
+      <p>We are organizing this local meet-up, to share our passion for open source, by engaging and educating developers in the community. What does it mean to start contributing, using GitHub, improving as a developer and building new skills are some of the topics that we plan to cover and discuss with you.</p>
+
+      <p>So, whether you’re a seasoned contributor or looking for projects to contribute to for the first time, we are expecting you to join us!</p>
+    </div>
+  </div>
+
+  <div class="row" id="agenda">
+    <div class="col-md-12">  
+      <h2>Agenda</h2>
+
+      <div class="row agenda_table">
+        <div class="col-md-8 col-md-offset-2">
+          <div class="row agenda_item">
+            <div class="col-xs-8">
+              <p><i class="fa fa-meetup" aria-hidden="true"></i> Meet and Greet</p>
+            </div>
+            <div class="col-xs-4 text-right">
+              <p>18:00 - 18:15</p>
+            </div>
+          </div>
+
+          <div class="row agenda_item">
+            <div class="col-xs-8">
+              <p><i style="padding-left: 4px;padding-right: 5px;" class="fa fa-microphone" aria-hidden="true"></i>  Welcome Talk from the hosts</p>
+            </div>
+            <div class="col-xs-4 text-right">
+              <p>18:15 - 18:30</p>
+            </div>
+          </div>
+
+          <div class="row agenda_item">
+            <div class="col-xs-8">
+              <p><i class="fa fa-rocket" aria-hidden="true"></i> Open Panel and discussion</p>
+            </div>
+            <div class="col-xs-4 text-right">
+              <p>18:30 - 20:00</p>
+            </div>
+          </div>
+
+          <div class="row agenda_item">
+            <div class="col-xs-8">
+              <p><i class="fa fa-beer" aria-hidden="true"></i> Talks and drinks</p>
+            </div>
+            <div class="col-xs-4 text-right">
+              <p>20:00 - 21:00</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
 
 
+<div class="container-fluid colorWhite" id="speakers">
+      <h2>Speakers</h2>
+      <p><strong>To be Announced soon...</strong></p>
+      <p>If you want to recommend someone write to us on info@hacktoberfest.mk</p>
+
+      <div class="speakers_left hidden-xs"></div>
+      <div class="speakers_right hidden-xs" ></div>
+</div>
+
+
+<div class="container" id="ticket">
+  <div class="row">
+    <div class="col-md-12">
+      <h2>Registrations are now open!</h2>
+      <p>Because of limited capacity, we advise you to register on time.</p>
+      <p><button class="join">Get a ticket</button></p>
+    </div>
+  </div>
+</div>
+
+<div class="container" id="where">
+  <div class="row">
+    <div class="col-md-12">
+      <h2>Where?</h2>
+      <p><strong>Public Room <br/>50ta Divizija, Skopje</strong></p>
+      <p><a target="_blank" href="https://www.google.mk/maps/place/Public+Room/@41.9899429,21.4237501,17z/data=!3m1!4b1!4m5!3m4!1s0x1354144de67331df:0xf0087225bdd525cd!8m2!3d41.9899429!4d21.4259388?hl=en">GOOGLE MAPS</a></p>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid">
+  <div id="map">
+  </div>
+</div>
+
+
+<footer class="footer">
+  <div class="container">
+    <div class="content has-text-centered">
+      <p><b>Hacktoberfest Skopje</b> - An initiative by open minds for open minds</p>
+      <p>Event powered by <a href="https://github.com" target="_blank"><i class="fa fa-github"></i></a> and <a href="https://digitalocean.com" target="_blank">DigitalOcean</a></p>
+      <p><a href="https://github.com/gsixdeploy/hacktoberfest" target="_blank">Source Code</a></p>
+    </div>
+  </div>
+</footer>
+
+
+
+<script>
+function myMap() {
+var mapProp= {
+    center:new google.maps.LatLng(41.9899429,21.42593880000004),
+    zoom:18,
+    styles: [
+              {
+                "elementType": "geometry",
+                "stylers": [
+                  {
+                    "color": "#1d2c4d"
+                  }
+                ]
+              },
+              {
+                "elementType": "labels.text.fill",
+                "stylers": [
+                  {
+                    "color": "#8ec3b9"
+                  }
+                ]
+              },
+              {
+                "elementType": "labels.text.stroke",
+                "stylers": [
+                  {
+                    "color": "#1a3646"
+                  }
+                ]
+              },
+              {
+                "featureType": "administrative.country",
+                "elementType": "geometry.stroke",
+                "stylers": [
+                  {
+                    "color": "#4b6878"
+                  }
+                ]
+              },
+              {
+                "featureType": "administrative.land_parcel",
+                "elementType": "labels.text.fill",
+                "stylers": [
+                  {
+                    "color": "#64779e"
+                  }
+                ]
+              },
+              {
+                "featureType": "administrative.province",
+                "elementType": "geometry.stroke",
+                "stylers": [
+                  {
+                    "color": "#4b6878"
+                  }
+                ]
+              },
+              {
+                "featureType": "landscape.man_made",
+                "elementType": "geometry.stroke",
+                "stylers": [
+                  {
+                    "color": "#334e87"
+                  }
+                ]
+              },
+              {
+                "featureType": "landscape.natural",
+                "elementType": "geometry",
+                "stylers": [
+                  {
+                    "color": "#023e58"
+                  }
+                ]
+              },
+              {
+                "featureType": "poi",
+                "elementType": "geometry",
+                "stylers": [
+                  {
+                    "color": "#283d6a"
+                  }
+                ]
+              },
+              {
+                "featureType": "poi",
+                "elementType": "labels.text.fill",
+                "stylers": [
+                  {
+                    "color": "#6f9ba5"
+                  }
+                ]
+              },
+              {
+                "featureType": "poi",
+                "elementType": "labels.text.stroke",
+                "stylers": [
+                  {
+                    "color": "#1d2c4d"
+                  }
+                ]
+              },
+              {
+                "featureType": "poi.park",
+                "elementType": "geometry.fill",
+                "stylers": [
+                  {
+                    "color": "#023e58"
+                  }
+                ]
+              },
+              {
+                "featureType": "poi.park",
+                "elementType": "labels.text.fill",
+                "stylers": [
+                  {
+                    "color": "#3C7680"
+                  }
+                ]
+              },
+              {
+                "featureType": "road",
+                "elementType": "geometry",
+                "stylers": [
+                  {
+                    "color": "#304a7d"
+                  }
+                ]
+              },
+              {
+                "featureType": "road",
+                "elementType": "labels.text.fill",
+                "stylers": [
+                  {
+                    "color": "#98a5be"
+                  }
+                ]
+              },
+              {
+                "featureType": "road",
+                "elementType": "labels.text.stroke",
+                "stylers": [
+                  {
+                    "color": "#1d2c4d"
+                  }
+                ]
+              },
+              {
+                "featureType": "road.highway",
+                "elementType": "geometry",
+                "stylers": [
+                  {
+                    "color": "#2c6675"
+                  }
+                ]
+              },
+              {
+                "featureType": "road.highway",
+                "elementType": "geometry.stroke",
+                "stylers": [
+                  {
+                    "color": "#255763"
+                  }
+                ]
+              },
+              {
+                "featureType": "road.highway",
+                "elementType": "labels.text.fill",
+                "stylers": [
+                  {
+                    "color": "#b0d5ce"
+                  }
+                ]
+              },
+              {
+                "featureType": "road.highway",
+                "elementType": "labels.text.stroke",
+                "stylers": [
+                  {
+                    "color": "#023e58"
+                  }
+                ]
+              },
+              {
+                "featureType": "transit",
+                "elementType": "labels.text.fill",
+                "stylers": [
+                  {
+                    "color": "#98a5be"
+                  }
+                ]
+              },
+              {
+                "featureType": "transit",
+                "elementType": "labels.text.stroke",
+                "stylers": [
+                  {
+                    "color": "#1d2c4d"
+                  }
+                ]
+              },
+              {
+                "featureType": "transit.line",
+                "elementType": "geometry.fill",
+                "stylers": [
+                  {
+                    "color": "#283d6a"
+                  }
+                ]
+              },
+              {
+                "featureType": "transit.station",
+                "elementType": "geometry",
+                "stylers": [
+                  {
+                    "color": "#3a4762"
+                  }
+                ]
+              },
+              {
+                "featureType": "water",
+                "elementType": "geometry",
+                "stylers": [
+                  {
+                    "color": "#0e1626"
+                  }
+                ]
+              },
+              {
+                "featureType": "water",
+                "elementType": "labels.text.fill",
+                "stylers": [
+                  {
+                    "color": "#4e6d70"
+                  }
+                ]
+              }
+            ]
+};
+
+var map=new google.maps.Map(document.getElementById("map"),mapProp);
+
+var myCenter = new google.maps.LatLng(41.9899429,21.42593880000004);
+var marker = new google.maps.Marker({position: myCenter});
+
+marker.setMap(map);
+}
+
+
+
+</script>
+
+<script type="text/javascript" src='js/main.js'></script>
+
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDh440xVS0D4q0izcVBEjE69fNeZP022hA&callback=myMap"></script>
 </body>
 </html>
