@@ -1,13 +1,13 @@
 body, html {
     height: 100%;
     margin: 0;
-    font-family: Esteban,serif;
+    font-family: 'Ubuntu', sans-serif !important;
 
 }
 
 h2{
     font-weight: 600;
-    font-family: Montserrat,sans-serif !important;
+    /*font-family: Montserrat,sans-serif !important;*/
 }
 
 
@@ -108,7 +108,11 @@ nav ul li a, nav ul li a:hover, nav ul li a:focus{
     padding: 15px;
 }
 
-.middle button, #ticket button{
+p.m30{
+    margin-top: 30px;
+}
+
+.middle button, #ticket a.join{
     width: 170px;
     background: transparent;
     border-radius: 4px;
@@ -120,11 +124,15 @@ nav ul li a, nav ul li a:hover, nav ul li a:focus{
     text-transform: uppercase;
     color: #fff;
 }
+#ticket a.join, #ticket a.join:hover, #ticket a.join:focus{
+    text-decoration: none;
+    padding: 15px 35px;
+}
 
 
-.middle button.join, #ticket button.join{
+
+.middle button.join, #ticket a.join{
     background: #ff5755;
-    font-family: Montserrat,sans-serif !important;
 
 }
 
