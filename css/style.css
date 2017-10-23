@@ -199,14 +199,14 @@ hr {
 
 .speakers_left{
     background: url(../images/speakers_left.svg) no-repeat 100%;
-    bottom: 30px;
+    top: 60px;
     left: 60px;
 }
 
 
 .speakers_right{
     background: url(../images/speakers_right.svg) no-repeat 100%;
-    bottom: 30px;
+    top: 60px;
     right: 60px;
 }
 
@@ -226,12 +226,43 @@ hr {
         color: #ff5755!important;
 }
 
+.speaker{
+    margin-bottom: 20px;
+    min-height: 150px;
+    padding: 20px;
+}
+
+.speaker h4{
+    display: inline-block;
+    padding-top: 20px;
+}
+.speaker_avatar{
+    width: 150px;
+    float: left;
+}
+
+.speaker img{
+    padding-right: 20px;
+}
+
+.speaker p{
+    display: inline-block;
+}
+
+.speaker p span{
+    display: block;
+}
+
+.speaker h4 a, .speaker h4 a:hover, .speaker h4 a:focus{
+    color: #ff5755;
+}
+
 @media screen and (max-width: 1200px){
     .speakers_left, .speakers_right{
         height: 150px;
         width: 150px;
         position: absolute;
-        bottom: 65px;
+        top: 65px;
     }
 }
 
@@ -241,7 +272,7 @@ hr {
         height: 120px;
         width: 120px;
         position: absolute;
-        bottom: 65px;
+        top: 65px;
     }
 }
 
@@ -250,7 +281,7 @@ hr {
         height: 120px;
         width: 120px;
         position: absolute;
-        bottom: 130px;
+        top: 65px;
     }
 
     .speakers_left{
@@ -274,6 +305,23 @@ hr {
 
     #agenda p{
         font-size: 12px;
+    }
+
+    .speaker_avatar{
+        width: 80%;
+        margin: 0 auto;
+        margin-left: 10%;
+        margin-bottom: 10px;
+    }
+
+    .speaker img{
+        width: 100%;
+    }
+
+
+
+    .speaker{
+        text-align: center;
     }
 }
 
