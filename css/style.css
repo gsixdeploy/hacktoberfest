@@ -245,8 +245,10 @@ hr {
     padding-right: 20px;
 }
 
-.speaker p{
+#speakers .speaker p{
     display: inline-block;
+    padding: 0px;
+    font-size: 23px;
 }
 
 .speaker p span{
